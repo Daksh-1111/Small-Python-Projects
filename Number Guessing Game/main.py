@@ -41,7 +41,7 @@ while not game_over:
         print(f"You got it in {lives} lives! The answer was {number_to_guess}")
         winner()
     else:
-        print("You've run out of guesses.")
+        print(f"You've run out of guesses. the actual number is :{number_to_guess}")
         print("You loss dear :(")
     print("|**********************************[ EXIT ]**********************************|")
     game_over = True
